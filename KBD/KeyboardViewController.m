@@ -116,7 +116,7 @@
         sentence = [sentences objectAtIndex: arc4random() % sentences.count];
     }
     
-    [self.textDocumentProxy insertText: [NSString stringWithFormat: @"%@\n\n", sentence]];
+    [self.textDocumentProxy insertText: [NSString stringWithFormat: @"%@\n", sentence]];
 }
 
 - (void)textWillChange:(id<UITextInput>)textInput {
