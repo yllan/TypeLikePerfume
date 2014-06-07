@@ -12,6 +12,9 @@
 		8503935C1940D057000F0D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8503935A1940D057000F0D87 /* Main.storyboard */; };
 		8503935E1940D057000F0D87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8503935D1940D057000F0D87 /* Images.xcassets */; };
 		8503936A1940D057000F0D87 /* TypeLikePerfumeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850393691940D057000F0D87 /* TypeLikePerfumeTests.swift */; };
+		8566E8AF1943450F00D46778 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8566E8AE1943450F00D46778 /* KeyboardViewController.swift */; };
+		8566E8B21943450F00D46778 /* org.yllan.TypeLikePerfume.Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8566E8AA1943450F00D46778 /* org.yllan.TypeLikePerfume.Keyboard.appex */; };
+		8566E8BF19435A5D00D46778 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8566E8BE19435A5D00D46778 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,7 +25,35 @@
 			remoteGlobalIDString = 850393501940D057000F0D87;
 			remoteInfo = TypeLikePerfume;
 		};
+		8566E8B01943450F00D46778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 850393491940D057000F0D87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8566E8A91943450F00D46778;
+			remoteInfo = Keyboard;
+		};
+		8566E8B31943450F00D46778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 850393491940D057000F0D87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8566E8A91943450F00D46778;
+			remoteInfo = Keyboard;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8566E8B81943450F00D46778 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8566E8B21943450F00D46778 /* org.yllan.TypeLikePerfume.Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		850393511940D057000F0D87 /* TypeLikePerfume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypeLikePerfume.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +65,11 @@
 		850393631940D057000F0D87 /* TypeLikePerfumeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypeLikePerfumeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		850393681940D057000F0D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		850393691940D057000F0D87 /* TypeLikePerfumeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeLikePerfumeTests.swift; sourceTree = "<group>"; };
+		8566E8AA1943450F00D46778 /* org.yllan.TypeLikePerfume.Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = org.yllan.TypeLikePerfume.Keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8566E8AD1943450F00D46778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8566E8AE1943450F00D46778 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		8566E8B9194347F900D46778 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		8566E8BE19435A5D00D46778 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +87,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8566E8A71943450F00D46778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +102,7 @@
 			children = (
 				850393531940D057000F0D87 /* TypeLikePerfume */,
 				850393661940D057000F0D87 /* TypeLikePerfumeTests */,
+				8566E8AB1943450F00D46778 /* Keyboard */,
 				850393521940D057000F0D87 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +112,7 @@
 			children = (
 				850393511940D057000F0D87 /* TypeLikePerfume.app */,
 				850393631940D057000F0D87 /* TypeLikePerfumeTests.xctest */,
+				8566E8AA1943450F00D46778 /* org.yllan.TypeLikePerfume.Keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +154,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8566E8AB1943450F00D46778 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8566E8AE1943450F00D46778 /* KeyboardViewController.swift */,
+				8566E8B9194347F900D46778 /* MyPlayground.playground */,
+				8566E8AC1943450F00D46778 /* Supporting Files */,
+				8566E8BE19435A5D00D46778 /* Media.xcassets */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		8566E8AC1943450F00D46778 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8566E8AD1943450F00D46778 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,10 +183,13 @@
 				8503934D1940D057000F0D87 /* Sources */,
 				8503934E1940D057000F0D87 /* Frameworks */,
 				8503934F1940D057000F0D87 /* Resources */,
+				8566E8B81943450F00D46778 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8566E8B11943450F00D46778 /* PBXTargetDependency */,
+				8566E8B41943450F00D46778 /* PBXTargetDependency */,
 			);
 			name = TypeLikePerfume;
 			productName = TypeLikePerfume;
@@ -147,6 +214,23 @@
 			productReference = 850393631940D057000F0D87 /* TypeLikePerfumeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		8566E8A91943450F00D46778 /* Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8566E8B71943450F00D46778 /* Build configuration list for PBXNativeTarget "Keyboard" */;
+			buildPhases = (
+				8566E8A61943450F00D46778 /* Sources */,
+				8566E8A71943450F00D46778 /* Frameworks */,
+				8566E8A81943450F00D46778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keyboard;
+			productName = Keyboard;
+			productReference = 8566E8AA1943450F00D46778 /* org.yllan.TypeLikePerfume.Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -162,6 +246,9 @@
 					850393621940D057000F0D87 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 850393501940D057000F0D87;
+					};
+					8566E8A91943450F00D46778 = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
@@ -180,6 +267,7 @@
 			targets = (
 				850393501940D057000F0D87 /* TypeLikePerfume */,
 				850393621940D057000F0D87 /* TypeLikePerfumeTests */,
+				8566E8A91943450F00D46778 /* Keyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -198,6 +286,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8566E8A81943450F00D46778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8566E8BF19435A5D00D46778 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +317,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8566E8A61943450F00D46778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8566E8AF1943450F00D46778 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -228,6 +332,16 @@
 			isa = PBXTargetDependency;
 			target = 850393501940D057000F0D87 /* TypeLikePerfume */;
 			targetProxy = 850393641940D057000F0D87 /* PBXContainerItemProxy */;
+		};
+		8566E8B11943450F00D46778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8566E8A91943450F00D46778 /* Keyboard */;
+			targetProxy = 8566E8B01943450F00D46778 /* PBXContainerItemProxy */;
+		};
+		8566E8B41943450F00D46778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8566E8A91943450F00D46778 /* Keyboard */;
+			targetProxy = 8566E8B31943450F00D46778 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -380,6 +494,32 @@
 			};
 			name = Release;
 		};
+		8566E8B51943450F00D46778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "org.yllan.TypeLikePerfume.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8566E8B61943450F00D46778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "org.yllan.TypeLikePerfume.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -399,12 +539,22 @@
 				8503936F1940D057000F0D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		850393701940D057000F0D87 /* Build configuration list for PBXNativeTarget "TypeLikePerfumeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				850393711940D057000F0D87 /* Debug */,
 				850393721940D057000F0D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8566E8B71943450F00D46778 /* Build configuration list for PBXNativeTarget "Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8566E8B51943450F00D46778 /* Debug */,
+				8566E8B61943450F00D46778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
