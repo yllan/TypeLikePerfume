@@ -7,7 +7,7 @@ iOS8 Keyboard Extension Experiment. It will input what Perfume have said in Perf
 
 ## Data
 
-The sentences are fetched and parsed from [Perfume LOCKS](http://www.tfm.co.jp/lock/perfume/) web page.
-The key icon are captured in Magic of Love [PV](https://www.youtube.com/watch?v=NhI2mp-WIck).
+- The sentences are fetched and parsed from [Perfume LOCKS](http://www.tfm.co.jp/lock/perfume/) web page.
+- The key icon are captured in Magic of Love [PV](https://www.youtube.com/watch?v=NhI2mp-WIck).
 
 I do not own the copyrights of these data.
