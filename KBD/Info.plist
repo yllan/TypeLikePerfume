@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>ja_JP</string>
+	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Talk Like Perfume</string>
+	<string>Type Like Perfume</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
@@ -38,7 +38,7 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.keyboard-service</string>
 		<key>NSExtensionPrincipalClass</key>
-		<string>${PRODUCT_MODULE_NAME}.KeyboardViewController</string>
+		<string>KeyboardViewController</string>
 	</dict>
 </dict>
 </plist>
